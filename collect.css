@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007587;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(188, 186, 186);
+}
+
+.collection-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.collection-left,
+.collection-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.collection-right img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.collection-container .collection-item {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
